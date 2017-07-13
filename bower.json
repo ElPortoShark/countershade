@@ -16,7 +16,11 @@
   ],
   "dependencies": {
     "foundation-sites": "~6.3.0",
-    "motion-ui": "~1.2.2"
+    "motion-ui": "~1.2.2",
+    "jquery": ">=1.7.2",
+    "jquery-ui": ">=1.8.22",
+    "video.js": "^6.2.1",
+    "imagesloaded": ">=2.1.1"
   },
   "private": true
 }

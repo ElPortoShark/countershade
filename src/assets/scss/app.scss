@@ -5,8 +5,8 @@
 @import 'motion-ui';
 
 @include foundation-global-styles;
-@include foundation-grid;
-// @include foundation-flex-grid;
+// @include foundation-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -49,3 +49,42 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+ 
+.header {
+	display: block;
+}
+.cs_logo {
+	padding: 20px;
+	float:left;
+	display: block;
+}
+
+.nav {
+	float:right;
+	display: block;
+	padding: 20px;
+}
+
+.nav_items {
+	padding-right:20px;
+}
+
+.nav_item {
+	padding-left: 40px;
+}
+
+.callout {
+    position: relative;
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    background-color: transparent !important;
+    border-radius: 0;
+        border-bottom: 1px solid white;
+    color: white;
+    margin-top: 140px;
+}
+
+.button {
+	background-color: #67afb5;
+}
